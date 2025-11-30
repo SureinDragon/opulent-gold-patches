@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Flooring Floors</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+		<operations>
+
+		<li Class="PatchOperationReplace">
+			<xpath>*/TerrainDef[@Name= "ksPrecGoldBase"]/color</xpath>
+			<value>
+				<color>(195,163,58)</color>
+			</value>
+		</li>
+
+		<li Class="PatchOperationReplace">
+			<xpath>*/TerrainDef[@Name= "ksPrecGoldBase"]/uiIconColor</xpath>
+			<value>
+				<uiIconColor>(195,163,58)</uiIconColor>
+			</value>
+		</li>
+
+		<li Class="PatchOperationReplace">
+			<xpath>*/TerrainDef[@Name= "ksMetalPlateGoldBase"]/color</xpath>
+			<value>
+				<color>(195,163,58)</color>
+			</value>
+		</li>
+
+		<li Class="PatchOperationReplace">
+			<xpath>*/TerrainDef[@Name= "ksMetalPlateGoldBase"]/uiIconColor</xpath>
+			<value>
+				<uiIconColor>(195,163,58)</uiIconColor>
+			</value>
+		</li>
+
+		<li Class="PatchOperationReplace">
+			<xpath>*/TerrainDef[@Name= "ksMetalTileGoldBase"]/color</xpath>
+			<value>
+				<color>(195,163,58)</color>
+			</value>
+		</li>
+
+		<li Class="PatchOperationReplace">
+			<xpath>*/TerrainDef[@Name= "ksMetalTileGoldBase"]/uiIconColor</xpath>
+			<value>
+				<uiIconColor>(195,163,58)</uiIconColor>
+			</value>
+		</li>
+
+		</operations>
+		</match>
+	</Operation>	
+
+</Patch>
